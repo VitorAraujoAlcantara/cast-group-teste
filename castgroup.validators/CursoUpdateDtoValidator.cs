@@ -3,7 +3,7 @@ using FluentValidation;
 
 namespace castgroup.validators
 {
-    internal class CursoUpdateDtoValidator: AbstractValidator<CursoUpdateDto>
+    public class CursoUpdateDtoValidator: AbstractValidator<CursoUpdateDto>
     {
         public CursoUpdateDtoValidator()
         {
