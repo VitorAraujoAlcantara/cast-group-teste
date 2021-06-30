@@ -14,6 +14,6 @@ namespace castgroup.repositories
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseNpgsql("Host=localhost;Database=cursos;Username=postgres;Password=vi492412VI");
+            => optionsBuilder.UseNpgsql("Host=localhost;Database=cursos;Username=postgres;Password=123456");
     }
 }
